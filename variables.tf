@@ -8,6 +8,7 @@ variable "db_username" {
 
 variable "db_password" {
   description = "RDS root user password"
+  default = "asausy65564HGFHJf"
   sensitive   = true
 }
 
@@ -17,4 +18,8 @@ variable "AWS_SECRET_ACCESS_KEY" {
 
 variable "AWS_ACCESS_KEY_ID" {
   default = ""
+}
+
+variable "AWS_REGION" {
+  default = "eu-west-2"
 }
