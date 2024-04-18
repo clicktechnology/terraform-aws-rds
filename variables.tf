@@ -8,7 +8,6 @@ variable "db_username" {
 
 variable "db_password" {
   description = "RDS root user password"
-  default = "asausy65564HGFHJf"
   sensitive   = true
 }
 
